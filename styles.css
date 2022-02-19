@@ -1,0 +1,161 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #a1c3ff;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, 
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.navbar {
+  background: #3474e6;
+  color: white;
+  height: 60px;
+}
+
+.navbar.logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;  
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header {
+  background-color: #1F2937;
+  color: #fff;
+  min-height: 400px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header img {
+  max-width: 400px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background: #01a5cc;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+.box i {
+  margin-right: 10px;
+}
+
+@media(max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+/* Below is what I struggled to make work before
+going back through more lessons and YouTube. I had 
+forgotten about the 'Box-sizing' altogether and 
+gapped on how to handle nav and containers.
+Brad Traversy "Flexbox Crash Course 2022" has helped
+me back on track and now I should be able to style the 
+rest of the project to the desired outcome.
+
+.top-page {
+  color: white; background-color: #1F2937;
+  display: flex 1;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.logos-and-links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+
+
+
+
+  
+  
